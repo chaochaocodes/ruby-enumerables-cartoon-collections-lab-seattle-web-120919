@@ -4,14 +4,16 @@ def roll_call_dwarves(dwarf_array)# code an argument here
 end
 
 def summon_captain_planet(team)# code an argument here
-  # returns an array with the same number of elements that it was given
+  # returns an array with the same number of elements that it was given => use map or collect
   #   capitalizes each element and adds an exclamation mark
-  (team).map {|team| team.capitalize + "!"}  
+  (team).map {|team| team.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
-  # returns true if any calls are longer than 4 characters (FAILED - 4)
-  #     returns false if all calls are 4 characters or less (FAILED - 5)
+  # returns true if any calls are longer than 4 characters
+  #    returns false if all calls are 4 characters or less
+  array.map {|character| character.length > 4}
+
 end
 
 def find_the_cheese# code an argument here
