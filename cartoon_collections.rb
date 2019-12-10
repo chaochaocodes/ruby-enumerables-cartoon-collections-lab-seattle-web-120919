@@ -9,7 +9,7 @@ def summon_captain_planet(team)# code an argument here
   (team).map {|team| team.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)# code an argument here
   # returns true if any calls are longer than 4 characters
   #    returns false if all calls are 4 characters or less
   array.map {|character| character.length > 4}
