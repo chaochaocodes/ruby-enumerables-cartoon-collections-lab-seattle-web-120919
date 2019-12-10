@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarf_array)# code an argument here
   # Your code here
-    (dwarf_array).each_with_index {|dwarf| puts dwarf}
+    (dwarf_array).each_with_index {|dwarf, i| puts "#{i}. #{dwarf}"}
 end
 
 def summon_captain_planet# code an argument here
